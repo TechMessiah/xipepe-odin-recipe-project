@@ -1,5 +1,5 @@
 # xipepe-odin-recipe-project
-As part of the training taking with the Odin Project, I was assigned a very difficult HTML website project. This preository is the result of hard work and sleepless nights.
+As part of the training that I am taking with the Odin Project, I was assigned a very difficult HTML website project. This preository is the result of hard work and sleepless nights.
 
 
 Even though I have been a web developer for a while, this was my first contact with HTML.
