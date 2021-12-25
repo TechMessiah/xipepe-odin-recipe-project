@@ -11,4 +11,5 @@ To conclude the exercise, had to relearn some of the HTML elements and CSS rules
 If you want to learn more about Odin Project and contribute somehow as well, just navigate to https://www.theodinproject.com/ or check the project here on GITHUB @ https://github.com/TheOdinProject. The project is huge. Currently has more that 5K collaborators, yes you "heard" it right. 5 fucking thousand collaborators.
 
 🥳 🥳 🥳 🥳 🥳 🥳 🥳 🥳 🥳 🥳 🥳 🥳 🥳 🥳 🥳 🥳 🥳 
+
 Happy new Year to the ODIN Project Community.
