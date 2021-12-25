@@ -114,6 +114,11 @@ footer .footer-menu {
 
 }
 
+.add-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 footer .footer-menu li a {
     padding: 1rem 2rem;
     font-weight: bold;
