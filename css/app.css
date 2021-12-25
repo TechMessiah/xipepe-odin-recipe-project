@@ -102,4 +102,35 @@ p {
     color: #ffffff;
 }
 
+footer {
+    padding: 2rem 0;
+    background: #f6f3f3;
+}
 
+footer .footer-menu {
+        display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+footer .footer-menu li a {
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+footer .logo-wrapper {
+    text-align: center;
+}
+
+footer .copy-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5efef;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.6rem;
+}
