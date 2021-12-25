@@ -2,9 +2,131 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1, width=device-width">
+    <meta name="author" content="Abel Chipepe AKA  Xipepe">
+    <meta name="DC.title" content="Odin Recipes - A recipe website by Abel Chipepe AKA Xipepe">
+    <meta name="robots" content="index, follow">
+    <meta lang="en-us">
+    <meta name="keywords" content="Abel Chipepe, uxipepe, chipepe, Webdesign, WebDevelopment, Angola, Luanda, Business, Odin Project">
+    <meta name="description" content="Odin Recipe App is a project built by Abel Chipepe as a solution for a Odin Project Training Exercise. ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Spartan:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/app.css">
+    <title>All recipes - We got you covered for your meals</title>
+    <script defer src="js/app.js"></script>
 </head>
 <body>
+<header>
+    <nav class="nav-bar">
+            <span class="navbar-logo">
+                 <a href="../index.html">
+                        <img src="../images/odin_project_logo.svg" alt="">
+                    </a>
+            </span>
+        <ul id="navbar-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="all-recipes.html">Recipes</a></li>
+            <li><a href="about-us.html">About us</a></li>
+            <li><a href="contact-us.html">Contacts Us</a></li>
+        </ul>
+        <label id="toggle-menu">
+            <span class="toggle-icon"></span>
+            <span class="toggle-icon"></span>
+            <span class="toggle-icon"></span>
+        </label>
+    </nav>
+</header>
+<main role="main">
+   <div style="background: #efefef; padding: 3rem 0; text-align: center">
+       <div class="container">
+           <h2>The best Odin Recipes</h2>
+       </div>
+   </div>
+    <div class="recipe-container grid">
+        <!-- Classic Banana Pudding -->
+        <div class="recipe-card">
+            <div class="recipe-image">
+                <img src="../images/recipes/0821-Banana-Pudding-FINAL.webp" alt="">
+            </div>
+            <div class="recipe">
+                <h3 class="recipe-name">Classic Banana Pudding</h3>
+                <p class="recipe-details"> With homemade vanilla pudding, sweetened condensed milk
+                    (the secret ingredient no one talks about), ....</p>
+                <div class="recipe-card-action">
+                    <a href="banana_pudding.html">  <button>View recipe</button></a>
+                </div>
+            </div>
+        </div>
 
+        <!-- Sheet Pan Gnocchi -->
+        <div class="recipe-card">
+            <div class="recipe-image">
+                <img src="../images/recipes/0621-Sheet-Pan-Gnocchi.webp" alt="">
+            </div>
+            <div class="recipe">
+                <h3 class="recipe-name">Sheet Pan Gnocchi</h3>
+                <p class="recipe-details">While the instructions on a package of shelf-stable gnocchi might tell you to boil them,
+                    the secret—which ...
+                </p>
+                <div class="recipe-card-action">
+                    <a href="sheet_pan_gnocchi.html">  <button>View recipe</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="recipe-card">
+            <div class="recipe-image">
+                <img src="../images/recipes/Lunch-Green-Curry-Lentil-Soup.webp" alt="">
+            </div>
+            <div class="recipe">
+                <h3 class="recipe-name">Green Curry Lentil Soup</h3>
+                <p class="recipe-details">This soup packs in all the ingredients that would make your doctor happy (Lentils! Sweet potatoes! Leafy greens!)... </p>
+            </div>
+            <div class="recipe-card-action">
+                <a href="green_lentil_soup.html"> <button>View recipe</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="disclamer">
+            <h2>Disclamer</h2>
+            <p>Before I get sued or something like that, I just want to say that the recipes and theirs images hereby presentend are not mine.
+                The are all proprieties of Condé Nast through their website <a target="_blank" href="https://www.bonappetit.com">https://www.bonappetit.com</a>.
+                Please do check the out.</p>
+            <p>The picture at the hero section is a courtesy of <a target="_blank" href="https://unsplash.com/photos/lcZ9NxhOSlo">Brooke Lark @ unspalsh</a> </p>
+        </div>
+    </div>
+    <div class="add-section container">
+        <a href="https://www.bonappetit.com">
+            <img src="images/background/bonapetite.gif" alt="">
+        </a>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="logo-wrapper">
+            <div>
+                <img src="../images/odin_project_logo.svg" alt="">
+            </div>
+            <h3>Odin recipes</h3>
+        </div>
+
+    </div>
+    <div>
+        <ul class="footer-menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Recipes</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contact us</a></li>
+        </ul>
+    </div>
+    <div class="copy-right">
+        <p>&copy; <a href="http://www.uxipepe.com/" target="_blank">uxipepe</a> 2021.</p>
+    </div>
+</footer>
 </body>
 </html>
