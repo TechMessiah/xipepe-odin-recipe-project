@@ -49,12 +49,22 @@ p {
 
 .nav-bar ul li {
     padding: 1px 15px;
+    font-weight: bold;
 }
 
 #hero {
     border:1px solid transparent;
     height: 60vh;
-    background: #efefef;
+    background: linear-gradient(to bottom, rgba(246, 243, 243, .5), rgba(246, 243, 243, .5)), url('../images/background/hero_background.jpg');
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero h1 {
+    margin-bottom: 2rem;
 }
 
 .grid {
@@ -85,9 +95,11 @@ p {
    padding: 1.5rem 0;
 }
 
-.recipe-card-action button  {
+.recipe-card-action button, button  {
     border: 0;
     padding: 1rem 1.5rem;
     background: #dca140;
     color: #ffffff;
 }
+
+
