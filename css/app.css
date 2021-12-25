@@ -427,3 +427,11 @@ footer .copy-right {
         display: none!important;
     }
 }
+
+/* About us page style */
+
+
+
+.author-photo img {
+    max-width: 100%;
+}
