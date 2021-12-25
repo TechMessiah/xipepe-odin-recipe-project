@@ -78,6 +78,7 @@ p {
 .nav-bar ul li a {
     text-decoration: none;
     position: relative;
+    color: inherit;
 }
 
 #hero {
@@ -151,6 +152,7 @@ footer .footer-menu li a {
     font-weight: bold;
     font-size: 1.6rem;
     text-decoration: none;
+    color: inherit;
 }
 
 footer .logo-wrapper {
