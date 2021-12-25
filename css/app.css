@@ -29,7 +29,7 @@ h3  {
 
 p {
     font-size: 1.6rem;
-    font-weight: normal;
+    font-weight: bold;
     line-height: 1.5;
 }
 
@@ -81,9 +81,13 @@ p {
     margin: 0 auto;
 }
 
+.recipe-card-action  {
+   padding: 1.5rem 0;
+}
 
 .recipe-card-action button  {
- border: 0;
+    border: 0;
     padding: 1rem 1.5rem;
-    background: aqua;
+    background: #dca140;
+    color: #ffffff;
 }
